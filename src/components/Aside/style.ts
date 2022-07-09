@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 const Container = styled.div`
   grid-area: AS;
-  background-color: #252a48;
+  color: ${props => props.theme.color.white};
+  background-color: ${props => props.theme.color.secondary};
   height: 100%;
 `;
 
