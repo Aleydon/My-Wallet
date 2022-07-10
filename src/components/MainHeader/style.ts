@@ -14,6 +14,7 @@ const Container = styled.div`
 export const Profile = styled.div`
   color: ${props => props.theme.color.white};
   display: flex;
+  padding-top: 20px;
 `;
 export const Welcome = styled.h3``;
 export const Username = styled.span``;
